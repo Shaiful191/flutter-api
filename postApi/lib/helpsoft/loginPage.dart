@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:talikhata/neviasoft/edd.dart';
-import 'package:talikhata/neviasoft/loginModel.dart';
+import 'package:talikhata/helpsoft/edd.dart';
+import 'package:talikhata/helpsoft/loginModel.dart';
 
 
 
