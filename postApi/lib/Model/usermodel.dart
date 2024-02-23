@@ -1,15 +1,14 @@
-
 //DataModel dataModelFromjson(String str)=>DataModel().fromJson(jsonDecode(str));
 
-class DataModel {
+class UserModel {
   String? name;
   String? job;
   String? id;
   String? createdAt;
 
-  DataModel({this.name, this.job, this.id, this.createdAt});
+  UserModel({this.name, this.job, this.id, this.createdAt});
 
-  DataModel.fromJson(Map<String, dynamic> json) {
+  UserModel.fromJson(Map<String, dynamic> json) {
     name = json['name'];
     job = json['job'];
     id = json['id'];
